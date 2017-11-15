@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e8ebff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.celltron.bookapps.Mobileapp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv4"
+        android:textSize="15dp"
+        android:text="\nএকটা সময় এমন ছিল যখন মোবাইল ফোন ছিল শুধুমাত্র যোগাযোগের মাধ্যম। তারপর সময়ের সাথে তাল মিলিয়ে এটি হয়ে ওঠে আমাদের জীবন যাপনের অবিচ্ছেদ্য অংশ। প্রয়োজনে-অপ্রয়োজনে মোবাইল ফোন যেন আমাদের সবচেয়ে কাছের বন্ধু। কিন্তু দুনিয়াজোড়া মানুষের মোবাইল ফোন ব্যবহারের অভিজ্ঞতাই বদলে ফেলে স্মার্টফোন! শুধুমাত্র ফোন নয়, পারসোনাল ডিজিটাল এ্যসিস্টেন্স (পিডিএ) আর মোবাইল ফোনের সম্মিলিত রূপই হচ্ছে এই স্মার্টফোন। কী নেই এখানে! পোর্টেবল মিডিয়া প্লেয়ার, হাই রেজুলেশন টাচ স্ক্রিন ক্যামেরা ফোন, জিপিএস নেভিগেশন, এক্সেলেরোমিটারের মতো সেন্সর, ওয়াই-ফাই আর মোবাইল ব্রডব্যান্ড এক্সেস! সর্বপোরি আছে অ্যাপ্লিকেশন স্টোর এবং মার্কেট থেকে ইচ্ছেমতন অসংখ্য অ্যাপ্লিকেশন ব্যবহারের সুযোগ – আর এটাই স্মার্টফোন ব্যবহারের সবচেয়ে আকর্ষণীয় দিক।
+স্মার্টফোনগুলোকে স্মার্ট বলার পেছনের কারন হল পূর্ববর্তী ফিচার ফোনগুলোর তুলনায় এর এডভান্সড কম্পিউটিং ক্ষমতা এবং কানেক্টিভিটি। আরো রয়েছে এর ফাস্টার প্রোসেসিং স্পিড আর বেশ বড় মাপের স্টোরেজ সুবিধা।
+আর আজকের এই লেখাটার উদ্দেশ্যই হল স্মার্টফোনের নানা দিক সবার সামনে তুলে ধরা, তবে শুধুমাত্র ব্যবহারকারীর দৃষ্টিভঙ্গি থেকে নয় বরং অনেকটাই ডেভেলপারের দৃষ্টিভঙ্গি থেকে।
+\n স্মার্ট স্মার্টফোনঃ
+\n স্মার্ট ফোনে রয়েছে উন্নত মোবাইল অপারেটিং সিস্টেম(OS)। যত ধরনের মোবাইল ওএস এখন মার্কেটে রয়েছে তার মধ্যে উল্লেখযোগ্য হল-\n
+• অ্যাপল আইওএস\
+• গুগল এন্ড্রয়েড
+• মাইক্রোসফট উইন্ডোজ ফোন ৭
+• নোকিয়া সিম্বিয়ান
+• রিসার্চ ইন মোশন ব্ল্যাকবেরী ওএস
+• পাম ওয়েব ওএস ইত্যাদি।"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

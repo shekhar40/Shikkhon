@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#3cbc7c"
+    android:layout_height="match_parent"
+    tools:context="com.example.celltron.bookapps.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <Button
+
+                android:id="@+id/btn1"
+                android:text="নিউরাল নেটওয়ার্ক "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/colorbutton"
+                />
+
+            <Button
+
+                android:id="@+id/btn2"
+                android:text="আর্টিফিশিয়াল ইন্টেলিজেন্স"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/colorbutton"
+
+                />
+
+            <Button
+
+                android:id="@+id/btn3"
+                android:text="ক্লাউড কম্পিউটিং"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/colorbutton"
+                android:padding=".05dp"
+                />
+
+            <Button
+
+                android:id="@+id/btn4"
+                android:text="মোবাইল এপ্লিকেশন "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/colorbutton"
+                />
+
+            <Button
+
+                android:id="@+id/btn5"
+                android:text="ওয়ারলেস নেটওয়ার্কিং "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/colorbutton"
+                />
+
+
+
+
+
+
+
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>
